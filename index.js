@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 const keys = require('./config/keys');
+const mongoose = require('mongoose');
 
 mongoose.connect(
     keys.mongoURI,
