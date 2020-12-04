@@ -1,3 +1,3 @@
-const Savedbooks = require('./savedbooks');
-
-module.exports = Savedbooks;
+module.exports = {
+    Books : require("./books")
+}
